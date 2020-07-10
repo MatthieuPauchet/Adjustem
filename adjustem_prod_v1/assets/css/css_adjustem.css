@@ -1,0 +1,171 @@
+
+/* Mise en page card */
+
+.MLD20 {
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.MLD10 {
+    margin: 5px auto;
+    max-width: 100%;
+}
+
+.h250 {
+    height: 250px;
+    width: auto;
+}
+
+.h200 {
+    height: 200px;
+    width: auto;
+    max-width: 220px;
+}
+
+.h180 {
+    height: 180px;
+    width: auto;
+}
+
+.h150 {
+    height: 150px;
+    width: auto;
+}
+.h100 {
+    height: 100px;
+    width: auto;
+}
+.h80 {
+    height: 80px;
+    width: auto;
+}
+.h65 {
+    height: 65px;
+    width: auto;
+}
+.h50 {
+    height: 50px;
+    width: auto;
+}
+
+/* mise en forme de la taille du logo en fonction de l'écran */
+#logo_header {
+    width: auto;
+    height: 55px;
+}
+
+@media (max-width: 1199px) {
+    #logo_header {
+        width: auto;
+        height: 50px;
+    }
+}
+
+
+/* placement à droite des boutons */
+@media (max-width: 991px) {
+    #bouton_header {
+        text-align: right;
+        margin: 5px;
+    }
+}
+
+
+
+.OK {
+    border-color: green;
+    border-width: 2px;
+}
+
+.KO {
+    border-color: red;
+    border-width: 3px;
+    font-weight: bolder;
+}
+
+.borderClassique {
+    border-width: 1px;
+    border-color: grey;
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.droite
+{
+ position: absolute;
+ /* top: 0em; */
+ right: 1em;
+}
+
+.text-right {
+    text-align: right;
+    margin: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.inline{
+    display:inline;
+}
+
+.block{
+    display: block;
+}
+
+.marginTop{
+    margin-top: 10px;
+}
+
+.marginRight{
+    margin-right: 10px;
+}
+
+.erreur{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+/* Mise en page pour le formulaire */
+
+input,
+textarea {
+    margin: 7px 0;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    border: 1px;
+    border-color: grey;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid green;
+  }

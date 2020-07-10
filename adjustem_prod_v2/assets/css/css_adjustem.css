@@ -1,0 +1,463 @@
+body{
+   font-family: "Arial" ;
+}
+
+
+/* Mise en page card */
+
+.MLD20 {
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.MLD10 {
+    margin: 5px auto;
+    max-width: 100%;
+}
+
+.h250 {
+    height: 250px;
+    width: auto;
+}
+
+.h210 {
+    height: 210px;
+    width: auto;
+}
+
+.h200 {
+    height: 200px;
+    width: auto;
+    max-width: 220px;
+}
+
+.h180 {
+    height: 180px;
+    width: auto;
+}
+
+.h150 {
+    height: 150px;
+    width: auto;
+}
+.h100 {
+    height: 100px;
+    width: auto;
+}
+.h80 {
+    height: 80px;
+    width: auto;
+}
+.h65 {
+    height: 65px;
+    width: auto;
+}
+.h50 {
+    height: 50px;
+    width: auto;
+}
+
+/* mise en forme de la taille du logo en fonction de l'écran */
+#logo_header {
+    width: auto;
+    height: 55px;
+}
+
+@media (max-width: 1199px) {
+    #logo_header {
+        width: auto;
+        height: 50px;
+    }
+}
+
+
+/* placement à droite des boutons */
+@media (max-width: 991px) {
+    #bouton_header {
+        text-align: right;
+        margin: 5px;
+    }
+}
+
+/* dimensionnement de la card et de l'image en responsive sur la vue devisPose */
+
+
+.img_devisPose {
+    height: 210px;
+    width: auto;
+}
+
+.headerCard_devisPose {
+    height: 80px;
+    width: auto;
+}
+
+.bodyCard_devisPose {
+    height: 250px;
+    width: auto;
+}
+
+.footerCard_devisPose {
+    height: 100px;
+    width: auto;
+}
+
+@media (max-width: 1199px) {
+    .img_devisPose {
+        height: 215px;
+        width: auto;
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .img_devisPose {
+        height: 155px;
+        width: auto;
+        margin-left: 6px;
+    }
+
+    .headerCard_devisPose {
+        height: 100px;
+        width: auto;
+    }
+
+    .bodyCard_devisPose {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .img_devisPose {
+        height: 185px;
+        width: auto;
+    }
+
+    .headerCard_devisPose {
+        height: 80px;
+        width: auto;
+    }
+
+    .bodyCard_devisPose {
+        height: 225px;
+        width: auto;
+    }
+}
+@media (max-width: 575px) {
+    .img_devisPose {
+        height: 215px;
+        width: auto;
+        margin-left: 13px;
+    }
+
+    .bodyCard_devisPose {
+        height: 255px;
+        width: auto;
+    }
+
+    .footerCard_devisPose {
+        height: 70px;
+        width: auto;
+    }
+}
+
+/* dimensionnement de la card et de l'image en responsive sur la vue devisType */
+
+
+.img_devisType {
+    height: 210px;
+    width: auto;
+}
+
+.headerCard_devisType {
+    height: 50px;
+    width: auto;
+}
+
+.bodyCard_devisType {
+    height: 250px;
+    width: auto;
+}
+
+
+@media (max-width: 1199px) {
+    .img_devisType {
+        height: 210px;
+        width: auto;
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .img_devisType {
+        height: 165px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .bodyCard_devisType {
+        height: 210px;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .img_devisType {
+        height: 198px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .bodyCard_devisType {
+        height: 240px;
+        width: auto;
+    }
+}
+
+
+/* dimensionnement de la card et de l'image en responsive sur la vue devisMatiere */
+
+
+.img_devisMatiere {
+    height: 210px;
+    width: auto;
+}
+
+.headerCard_devisMatiere {
+    height: 50px;
+    width: auto;
+}
+
+.bodyCard_devisMatiere {
+    height: 250px;
+    width: auto;
+}
+
+.footerCard_devisMatiere {
+    height: 100px;
+    width: auto;
+}
+
+@media (max-width: 1199px) {
+    .img_devisMatiere {
+        height: 215px;
+        width: auto;
+        margin-left: 13px;
+    }
+
+    .footerCard_devisMatiere {
+        height: 80px;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .img_devisMatiere {
+        height: 155px;
+        width: auto;
+        margin-left: 6px;
+    }
+
+    .bodyCard_devisMatiere {
+        height: 200px;
+        width: auto;
+    }
+    
+    .footerCard_devisMatiere {
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .img_devisMatiere {
+        height: 185px;
+        width: auto;
+    }
+
+    .bodyCard_devisMatiere {
+        height: 225px;
+        width: auto;
+    }
+}
+@media (max-width: 575px) {
+    .img_devisMatiere {
+        height: 215px;
+        width: auto;
+        margin-left: 13px;
+    }
+
+    .bodyCard_devisMatiere {
+        height: 255px;
+        width: auto;
+    }
+
+    .footerCard_devisMatiere {
+        height: 70px;
+        width: auto;
+    }
+}
+
+/* dimensionnement de la card et de l'image en responsive sur la vue devisOuverture */
+
+
+.img_devisOuverture {
+    height: 210px;
+    width: 210px;
+}
+
+.headerCard_devisOuverture {
+    height: auto;
+    width: auto;
+}
+
+.bodyCard_devisOuverture {
+    height: 250px;
+    width: auto;
+}
+
+
+@media (max-width: 1199px) {
+    .img_devisOuverture {
+        height: 168px;
+        width: 168px;
+    }
+
+    .bodyCard_devisOuverture {
+        height: 208px;
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .img_devisOuverture {
+        height: 198px;
+        width: 198px;
+        margin-left: 0;
+    }
+
+    .bodyCard_devisOuverture {
+        height: 238px;
+        width: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .img_devisOuverture {
+        height: 245px;
+        width: 245px;
+    }
+
+    .bodyCard_devisOuverture {
+        height: 285px;
+        width: auto;
+    }
+}
+
+/* Classe utilisé pour la mise en forme des formulaires avec JS */
+.OK {
+    border-color: green;
+    border-width: 2px;
+}
+
+.KO {
+    border-color: red;
+    border-width: 3px;
+    font-weight: bolder;
+}
+
+.borderClassique {
+    border-width: 1px;
+    border-color: grey;
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.droite
+{
+ position: absolute;
+ /* top: 0em; */
+ right: 1em;
+}
+
+.text-right {
+    text-align: right;
+    margin: 5px;
+}
+
+.text-end{
+    text-align: end;
+    margin-top: 7px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.inline{
+    display:inline;
+}
+
+.block{
+    display: block;
+}
+
+.marginTop{
+    margin-top: 10px;
+}
+
+.marginRight{
+    margin-right: 10px;
+}
+
+.erreur{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+/* Mise en page pour le formulaire */
+
+input,
+textarea {
+    margin: 7px 0;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    border: 1px;
+    border-color: grey;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid green;
+  }

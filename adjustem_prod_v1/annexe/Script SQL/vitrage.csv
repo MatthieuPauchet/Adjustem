@@ -1,0 +1,10 @@
+vit_id;vit_composition;vit_sw;vit_uw;vit_perf_acoustique;vit_perf_thermique;vit_perf_securite;vit_prix;vit_coefficient
+1;Double vitrage clair 4-16-4 FE Argon;0.52;1.3;1;1;1;0;1
+2;Double vitrage clair 10-16-4 FE Argon;0.49;1.3;2;1;1;0;1.05
+3;Double vitrage clair 44.2 silence-16-4 FE Argon;0.48;1.3;3;1;1;0;1.18
+4;Double vitrage clair 44.2-16-4 FE Argon;0.48;1.3;1;1;2;0;1.1
+5;Double vitrage clair 44.2 silence-16-4 FE Argon;0.48;1.3;2;1;2;0;1.18
+6;Double vitrage clair 44.2 silence-12-8 FE Argon;0.48;1.4;3;1;2;0;1.25
+7;Double vitrage clair SP510-14-4 FE Argon;0.46;1.3;1;1;3;0;1.2
+8;Double vitrage clair 44.2-12-44.2 FE Argon;0.47;1.5;2;1;3;0;1.22
+9;Double vitrage clair 44.2 silence-12-8 FE Argon;0.48;1.4;3;1;3;0;1.25
